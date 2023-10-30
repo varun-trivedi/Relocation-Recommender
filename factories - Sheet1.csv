@@ -1,0 +1,37 @@
+#,States,Factories,Total Persons Engaged
+1,Tamil Nadu,38837,2663069
+2,Gujarat,28479,2068743
+3,Maharashtra,25610,2038255
+4,Andhra Pradesh,16924,663574
+5,Uttar Pradesh,16184,1130778
+6,Telangana,15271,787105
+7,Karnataka,14169,1081116
+8,Punjab,13092,661932
+9,Haryana,11252,1023667
+10,Rajasthan,9694,598791
+11,West Bengal,9650,736165
+12,Kerala,7796,341411
+13,Assam,5196,263106
+14,Madhya Pradesh,4771,413475
+15,Chattisgarh,3892,228927
+16,Bihar,3429,128203
+17,Delhi,3259,108232
+18,Odisha,3079,281911
+19,Uttarakhand,2969,437816
+20,Jharkhand,2875,205976
+21,Himachal Pradesh,2687,227975
+22,Daman & Diu,1682,122078
+23,Dadra & N Haveli,1355,132695
+24,Jammu & Kashmir *,1022,66759
+25,Puducherry,727,50958
+26,Goa,711,74197
+27,Tripura,657,24266
+28,Chandigarh,250,10167
+29,Mizoram #,215,1664
+30,Manipur,204,6898
+31,Nagaland,190,5361
+32,Meghalaya,158,12904
+33,Arunachal Pradesh,116,2581
+34,Sikkim,84,23039
+35,A & N. Island,15,286
+36,Ladakh *,3,214
