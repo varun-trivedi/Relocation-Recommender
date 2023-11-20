@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Relocation Recommender System</title>
+  <link rel="stylesheet" href="./BTP.css">
+</head>
+<body>
+  <h1>Rate Parameters</h1>
+  <form id="parametersForm">
+    <div class="parameter">
+        <label for="AQI">Desired AQI:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="AQI">
+        <span id="AQIValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="Literacy_Rate">Literacy Rate:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="Literacy_Rate">
+        <span id="Literacy_RateValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="PopulationDensity">Population Density:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="PopulationDensity">
+        <span id="PopulationDensityValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="CrimeRate">Crime Rate:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="crimeRate">
+        <span id="crimeRateValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="SafetyIndex">Safety Index:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="SafetyIndex">
+        <span id="SafetyIndexValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="PropertyPrice_Income">Property Price/Income:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="PropertyPrice_Income">
+        <span id="PropertyPrice_IncomeValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="AverageRainfall">Average Rainfall:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="AverageRainfall">
+        <span id="AverageRainfallValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="Traffic">Traffic:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="Traffic">
+        <span id="TrafficValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="UnemploymentRate">Unemployment Rate:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="UnemploymentRate">
+        <span id="UnemploymentRateValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="LifeExpectancy">Life Expectancy:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="LifeExpectancy">
+        <span id="LifeExpectancyValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="Factories">Factories:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="Factories">
+        <span id="FactoriesValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="WorkersEngaged">Workers Engaged:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="WorkersEngaged">
+        <span id="WorkersEngagedValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="foodprices">Food Prices:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="foodprices">
+        <span id="foodpricesValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="healthcareindex">Health Care Index:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="healthcareindex">
+        <span id="healthcareindexValue">50</span>
+      </div>
+      <div class="parameter">
+        <label for="pollutionindex">Pollution Index:</label>
+        <input type="range" min="1" max="100" value="50" class="slider" id="pollutionindex">
+        <span id="pollutionindexValue">50</span>
+      </div>
+
+    <!-- Repeat similar divs for other parameters -->
+
+    <input type="submit" value="Submit Ratings">
+  </form>
+  <script src="https://cdn.jsdelivr.net/npm/json2csv"></script>
+  <script src="./BTP.js"></script>
+</body>
+</html>
